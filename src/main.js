@@ -72,6 +72,7 @@ function init() {
 function loadImage(src, params) {
   renderer.on('load', onRenderLoad);
   renderer.setPhotosphere(src, params);
+  renderer.setAttribute('crossorigin', 'anonymous');
 }
 
 function onSceneLoad(scene) {
