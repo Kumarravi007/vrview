@@ -43468,7 +43468,7 @@ PhotosphereRenderer.prototype.setDefaultLookDirection = function(phi) {
  */
 PhotosphereRenderer.prototype.setPhotosphere = function(src, opt_params) {
   var params = opt_params || {};
-
+debugger;
   this.isStereo = !!params.isStereo;
   this.src = src;
 
